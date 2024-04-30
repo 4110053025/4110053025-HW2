@@ -53,7 +53,7 @@ for i in range(4, 51):
 print("\n\n""Degree of overlapping subproblem:")
 for i in range(4, 51):
     print(str(i) + " " + str(top_d[i-4]) + "(degree)")
-
+# 將第4個到第50個費波那契數的子問題數量依序print出來
 
 plt.plot(x, top_d, 'ro-')
 plt.title('Degree of overlapping subproblem of top-down method')
